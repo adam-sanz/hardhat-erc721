@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# ERC721 Projects
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+We go through creating 3 different kinds of NFTs.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+1. A Basic ERC-721 NFT
+2. IPFS Hosted Penguin ERC-721 NFT using randomness to generate a unique NFT with three types of rarity
+3. SVG ERC-721 NFT (Hosted 100% on-chain) using price feeds to be dynamic
